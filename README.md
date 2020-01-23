@@ -40,7 +40,7 @@ Datasets provided for exploration:
 * bom_movie_gross.tsv
 
 
-
+</details>
 <details><summary><span style="font-size:18pt; font-weight:bold">Q1 Are there any patterns or relationships among the most profitable movies?</span><br>&emsp;Explore genres as they relate to movie profit.</summary>
     
 ## Exploration (EDA)
@@ -58,7 +58,7 @@ Movies of the genres Adventure, Action, or Sci-Fi have the most likelihood of dr
 
 **Next Steps**
 The data provided contained many gaps. A thorough cleaning of the data is recommended to include attempts to fill in missing data.
-
+</details>
 <details><summary><span style="font-size:18pt; font-weight:bold">Q2 What studios tend to make the most profitable 
 movies?</span><br>&emsp;Explore top movies by production company.</summary>
 
@@ -82,7 +82,7 @@ as well as LGF and LG/S seem to be versions of Lions Gates studios.
 **Next Steps**
 An investigation and thorough cleaning of studios names may produce different results. I suspect that combining studios (ex: LGF and LG/S) will change the list slightly. May also want to find the average profit/movie to account for sheer volumel
 (By the way - if you use average profit instead of total profit you get a studio called Greater India that shows up third.) 
-
+</details>
 <details><summary><span style="font-size:18pt; font-weight:bold">Q3 What is a good length for a movie?</span><br>&emsp;Explore movie runtime as it relates to profit.</summary>
     
 ## Exploration (EDA)
@@ -99,7 +99,7 @@ Set a target runtime length of movies to be between 95 and 142 minutes.
 
 **Next Steps**
 An investigation and thorough cleaning of profit data may produce different results.
-
+</details>
 <details><summary><span style="font-size:18pt; font-weight:bold">Q4 Are more profitable movies also the most popular?</span><br>&emsp;Explore popularity versus profitability among top movies</summary>
     
 ## Exploration (EDA)
@@ -117,7 +117,7 @@ Care must be taken, as in all things, to maximize profit. The popularity of a mo
 
 **Next Steps**
 An investigation and thorough cleaning of movies by profit and/or popularity may produce different results.
-
+</details>
 <details><summary><span style="font-size:18pt; font-weight:bold">Q5 Do more profitable movies also have higher ratings?</span><br>&emsp;Higher Rated Movies versus Profit</summary>
     
 ## Exploration (EDA)
@@ -133,7 +133,7 @@ It may be worth a closer look at the more profitable movies rated between 6 and 
 
 **Next Steps**
 An investigation and thorough cleaning of data by movie of ratings and profitability may produce different results.
-
+</details>
 <details><summary><span style="font-size:18pt; font-weight:bold">Q6 Is there a relationship between popularity and the IMDB ratings?</span><br>&emsp;Explore Popularity versus Ratings</summary>
     
 ## Exploration (EDA)
@@ -146,8 +146,8 @@ Even though popularity and IMDB ratings are calculated differently,  a relations
 **Recommendations** Additional investigations into other relationships may reveal more promising relationships
 
 **Next Steps** A thorough cleaning of the data movies, ratings, and popularity a may produce different results.
-
-<details><summary><span style="font-size:18pt; font-weight:bold">In Conclusion</span><br>   </summary>
+</details>
+<details><summary><span style="font-size:18pt; font-weight:bold">In Conclusion</span><br></summary>
     
 #### For success in the movie industry Microsoft should
 * seek to maximize profit by choosing to create more movies that are Adventure, Action and/or Sci-Fi and avoiding Musical, Horror, Biographies and Romance movies
@@ -155,3 +155,4 @@ Even though popularity and IMDB ratings are calculated differently,  a relations
 * try to make movies between 95 and 140 minutes
 * although a movie cannot do well without being widely seen, care should be taken to maximize profits while minimizing expenses as in any company - relationships with the highly rated movies and the popular movies do not seem to significantly affect profit
 * possibly provide better data without numerous missing values
+</details>
